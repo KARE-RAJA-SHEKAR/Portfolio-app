@@ -23,13 +23,13 @@ function Projects() {
                 <img src={project2} alt="Project 2" />
                 <h3>E-commerce site</h3>
                 <p>This is another project where I built a responsive e-commerce website using HTML, CSS, and JavaScript. It includes a shopping cart and checkout functionality.</p>
-                <a href="https://github.com/KARE-RAJA-SHEKAR/projects" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                <a href="https://github.com/KARE-RAJA-SHEKAR/codeway-codes" target="_blank" rel="noopener noreferrer">View on GitHub</a>
             </div>
             <div className="project-card">
                 <img src={project3} alt="Project 3" />
                 <h3>Stocks Analyser</h3>
                 <p>This project is a machine learning model that predicts stock prices using Python and TensorFlow. It demonstrates data analysis and prediction accuracy.</p>
-                <a href="https://github.com/KARE-RAJA-SHEKAR/projects" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                <a href="https://github.com/KARE-RAJA-SHEKAR/Codeway_Task3" target="_blank" rel="noopener noreferrer">View on GitHub</a>
             </div>
         </section>
     );

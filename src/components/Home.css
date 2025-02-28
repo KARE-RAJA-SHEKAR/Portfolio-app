@@ -82,6 +82,28 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
+/* Download Resume Button */
+.download-btn {
+    background-color: #FCA311;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 1rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.download-btn:hover {
+    background-color: #14213D;
+    color: #FCA311;
+    border: 2px solid #FCA311;
+}
+
 /* Cursor Blink Animation */
 @keyframes blinkCursor {
     50% { border-color: transparent; }
@@ -119,5 +141,10 @@
 
     .role {
         font-size: 1.3rem; /* Adjust for smaller screens */
+    }
+
+    .download-btn {
+        width: 100%; /* Make button full-width on small screens */
+        padding: 10px;
     }
 }

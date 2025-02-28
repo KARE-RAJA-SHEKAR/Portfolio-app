@@ -37,7 +37,6 @@ function Home() {
 
     const [homeRef, isHomeVisible] = useScrollAnimation();
 
-
     return (
         <section id="home" ref={homeRef} className={`fade-in ${isHomeVisible ? "visible" : ""}`}>
             <div className="container">
@@ -45,7 +44,16 @@ function Home() {
                 <div className="content">
                     <h2>Hi, I'm <span className="name">RajaShekar</span></h2>
                     <p className="role">{displayedRole}</p>
-                    <p>Your one-stop destination to explore my work and skills!</p>
+                    <p>Your one-stop destination to explore my work and skills!
+                       If you want to unlock your web development skills and 
+                       explore them to lead the world in an unique way.Let's work 
+                       together to enhance our skills and put your ideas to colour 
+                       the pages of the universe.</p>
+
+                    {/* 🔹 Download Resume Button */}
+                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" download="RajaShekar_Resume.pdf">
+                        <button className="download-btn">Download Resume</button>
+                    </a>
                 </div>
             </div>
         </section>
