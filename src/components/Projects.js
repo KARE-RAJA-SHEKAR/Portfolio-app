@@ -29,7 +29,7 @@ function Projects() {
                 <img src={project3} alt="Project 3" />
                 <h3>Stocks Analyser</h3>
                 <p>This project is a machine learning model that predicts stock prices using Python and TensorFlow. It demonstrates data analysis and prediction accuracy.</p>
-                <a href="https://github.com/KARE-RAJA-SHEKAR/Codeway_Task3" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                <a href="https://github.com/KARE-RAJA-SHEKAR/Stock_price_predictor" target="_blank" rel="noopener noreferrer">View on GitHub</a>
             </div>
         </section>
     );

@@ -51,7 +51,7 @@ function Home() {
                        the pages of the universe.</p>
 
                     {/* 🔹 Download Resume Button */}
-                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" download="RajaShekar_Resume.pdf">
+                    <a href="/Fullstack-Developer-resume.pdf" target="_blank" rel="noopener noreferrer" download="RajaShekar_Resume.pdf">
                         <button className="download-btn">Download Resume</button>
                     </a>
                 </div>
