@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css'; // Import Projects section styles
 import project1 from './assets/project.png';
-import project2 from './assets/project-2.png';
+import project2 from './assets/chatbot.png';
 import project3 from './assets/project-3.png'
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
@@ -21,9 +21,9 @@ function Projects() {
             </div>
             <div className="project-card">
                 <img src={project2} alt="Project 2" />
-                <h3>E-commerce site</h3>
+                <h3>AI-career Bot</h3>
                 <p>This is another project where I built a responsive e-commerce website using HTML, CSS, and JavaScript. It includes a shopping cart and checkout functionality.</p>
-                <a href="https://github.com/KARE-RAJA-SHEKAR/codeway-codes" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                <a href="https://github.com/KARE-RAJA-SHEKAR/ai-career-counsellor-1" target="_blank" rel="noopener noreferrer">View on GitHub</a>
             </div>
             <div className="project-card">
                 <img src={project3} alt="Project 3" />
