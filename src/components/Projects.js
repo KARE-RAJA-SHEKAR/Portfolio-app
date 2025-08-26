@@ -22,7 +22,8 @@ function Projects() {
             <div className="project-card">
                 <img src={project2} alt="Project 2" />
                 <h3>AI-career Bot</h3>
-                <p>AI creer coucellor chat bot ia an innovative bot that suggests the user career paths by giving the intents from the user, tech used-chat bot used-RASA,streamlit,NLP.</p>
+                <p> AI-Powered Virtual Career Counsellor is an intelligent chatbot that recommends career paths based on user intents ny ML & NLP,
+                 interacts with users in an conversational way and suggests career options like engineering, arts, business.</p>
                 <a href="https://github.com/KARE-RAJA-SHEKAR/ai-career-counsellor-1" target="_blank" rel="noopener noreferrer">View on GitHub</a>
             </div>
             <div className="project-card">
