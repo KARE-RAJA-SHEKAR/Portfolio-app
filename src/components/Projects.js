@@ -22,7 +22,7 @@ function Projects() {
             <div className="project-card">
                 <img src={project2} alt="Project 2" />
                 <h3>AI-career Bot</h3>
-                <p>This is another project where I built a responsive e-commerce website using HTML, CSS, and JavaScript. It includes a shopping cart and checkout functionality.</p>
+                <p>AI creer coucellor chat bot ia an innovative bot that suggests the user career paths by giving the intents from the user, tech used-chat bot used-RASA,streamlit,NLP.</p>
                 <a href="https://github.com/KARE-RAJA-SHEKAR/ai-career-counsellor-1" target="_blank" rel="noopener noreferrer">View on GitHub</a>
             </div>
             <div className="project-card">
